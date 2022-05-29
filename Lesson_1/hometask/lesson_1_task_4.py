@@ -16,9 +16,9 @@ print(f"Символ {symb_2} расположен на позиции {code_2 -
 # Если code_1 > code_2, то:
 if code_1 > code_2:
     #  Вывод code_1 - code_2
-    print(f"Между символами {symb_2} и {symb_1} расположено {code_1 - code_2} символов")
+    print(f"Между символами {symb_2} и {symb_1} расположено {code_1 - code_2 - 1} символов")
 # Иначе:
 else:
     # Вывод code_2 - code_1
-    print(f"Между символами {symb_1} и {symb_2} расположено {code_2 - code_1} символов")
+    print(f"Между символами {symb_1} и {symb_2} расположено {code_2 - code_1 - 1} символов")
 # Конец
