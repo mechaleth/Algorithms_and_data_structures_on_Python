@@ -13,7 +13,8 @@ if companies_count < 0:
 # custom_dict = dict()
 # так делать не стоит, так как найти и обработать ошибку проблематично
 # но интересно!
-custom_dict = collections.defaultdict(lambda: int(input("Введите выручку за 4 квартала ")))
+custom_dict = collections.defaultdict(
+    lambda: sum([int(input(f"Введите выручку за квартал {i} ")) for i in range(1, 5)]))
 
 for i in range(companies_count):
     while True:
